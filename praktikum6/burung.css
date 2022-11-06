@@ -1,0 +1,79 @@
+body {
+    margin: 0px 200px;
+    border: 1x solid black;
+}
+div {
+    padding: 20px;
+    background-color: cornsilk;
+}
+#header {
+    background-color: rgb(228, 197, 140);
+    text-align: center;
+    color: rgb(25, 71, 168);
+    padding: 5px;
+}
+blockquote {
+    background-color: yellow;
+    border: 1px dotted black;
+    font-style: italic;
+    color: black;
+}
+#soekarno {
+    font-weight: bold;
+}
+#nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+#nav li {
+    margin-right: 10px;
+}
+.gambar {
+    display: flex;
+    justify-content: center;
+}
+.gambar img {
+    width:250px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.bBesar {
+    font-size: 50px;
+    color: blue;
+}
+.isi {
+    text-align: justify;
+}
+.first-key {
+    font-weight: bold;
+    font-size: 75px;
+    color: rgb(11, 11, 187);
+    line-height: 0px;
+}
+#profile {
+    text-align: justify;
+}
+.koleksi {
+    display: flex;
+    justify-content: center;
+}
+.koleksi img {
+    width: 23%;
+    margin-right: 10px;
+    border: 2px;
+    border-radius: 50px;
+}
+.promo {
+    text-align: center;
+}
+.promo ol {
+    display: inline-block;
+}
+.promo li {
+    text-align: left;
+}
+.promo a {
+    text-decoration: none;
+    color: black;
+}
