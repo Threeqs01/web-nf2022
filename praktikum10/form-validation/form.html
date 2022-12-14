@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td>Nama Pelanggan</td>
+                <td>:</td>
+                <td><input type="text" id="nama"></td>
+                <td><span id="errornama"></span></td>
+            </tr>
+            <tr>
+                <td>Email Pelanggan</td>
+                <td>:</td>
+                <td><input type="email" id="email"</td>
+                <td><span id="erroremail"></span></td>
+            </tr>
+            <tr>
+                <td>Jam Keberangkatan</td>
+                <td>:</td>
+                <td><input type="text" id="jam"</td>
+                <td><span id="errorjam"></span></td>
+            </tr>
+            <tr>
+                <td>Tujuan Pelanggan</td>
+                <td>:</td>
+                <td><input type="text" id="tujuan"</td>
+                <td><span id="errortujuan"></span></td>
+            </tr>
+            <tr>
+                <td>Jumlah Tiket</td>
+                <td>:</td>
+                <td><input type="number" id="tiket"</td>
+                <td><span id="errorjtiket"></span></td>
+            </tr>
+            <tr>
+                <td colspan="6"><input type="button" value="submit" onclick="validator()"> <input type="reset" value="reset"></td>
+            </tr>
+        </table>
+
+        <table id="hasil" style="display: none;">
+            <caption>Hasil Input</caption>
+            <tr>
+                <td>Nama Pelanggan</td>
+                <td>:</td>
+                <td><span id="inputnama"></span></td>
+            </tr>
+            <tr>
+                <td>Email Pelanggan</td>
+                <td>:</td>
+                <td><span id="inputemail"></span></td>
+            </tr>
+            <tr>
+                <td>Jam Berangkat</td>
+                <td>:</td>
+                <td><span id="inputjam"></span></td>
+            </tr>
+            <tr>
+                <td>Tujuan Pelanggan</td>
+                <td>:</td>
+                <td><span id="inputtujuan"></span></td>
+            </tr>
+            <tr>
+                <td>Jumlah Tiket</td>
+                <td>:</td>
+                <td><span id="inputtiket"></span></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
